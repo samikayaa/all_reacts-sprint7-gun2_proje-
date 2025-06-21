@@ -1,3 +1,5 @@
+import UserListss2 from "./UserList_ss2";
+
 export default function SideBar(props) {
 
     const { kullanicilar } = props;
@@ -5,7 +7,7 @@ export default function SideBar(props) {
     return (
         <div className="side-container">
             <h2>Users</h2>
-            kullanıcılar burada listelenmeli, UserList dosyasında componentını oluşturup kullanabilirsin.
+            <UserListss2 kullanicilar={kullanicilar} />
         </div>
     );
 }
