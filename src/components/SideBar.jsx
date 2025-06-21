@@ -7,7 +7,7 @@ export default function SideBar() {
     "jewelery",
     "men's clothing",
     "women's clothing"
-    ]);
+  ]);
 
   return (
     <>
@@ -18,3 +18,4 @@ export default function SideBar() {
     </>
   );
 }
+
