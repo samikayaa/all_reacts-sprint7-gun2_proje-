@@ -16,12 +16,18 @@ function App() {
 
     const [kullanicilar, setKullanicilar] = useState([]);
 
+    const addUser = (kullanici) => {
+        setKullanicilar([...kullanicilar, kullanici])
+    }
+
     return (
         <>
             <Header />
             <div className="content-section">
                 <SideBar />
+                <SideBarss2 />
                 <Main />
+                <Mainss2 addUser={addUser} />
                 <UserList kullanicilar={kullanicilar} />
                 <UserListss2 kullanicilar={kullanicilar} />
             </div>

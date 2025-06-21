@@ -1,6 +1,6 @@
 import UserListss2 from "./UserList_ss2";
 
-export default function SideBar(props) {
+export default function SideBarss2(props) {
 
     const { kullanicilar } = props;
 
